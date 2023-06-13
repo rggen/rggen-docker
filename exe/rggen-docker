@@ -1,0 +1,20 @@
+#!/bin/bash
+
+tag=latest
+work=${PWD}
+args=()
+while [ $# -gt 0 ]; do
+  if [ $# -ge 2 ] && [ $1 = '--tag' ]; then
+    tag=$2
+    shift 2
+  elif [ $# -ge 2 ] && [ $1 = '--work' ]; then
+    work=$2
+    shift 2
+  else
+    args=("${args[@]}" "$1")
+    shift
+  fi
+done
+
+docker pull rggendev/rggen-docker:$tag > /dev/null
+docker run -ti -v $(cd $work; pwd):/work --user $(id -u):$(id -g) --rm rggendev/rggen-docker:$tag "${args[@]}"
