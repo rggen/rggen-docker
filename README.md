@@ -19,7 +19,7 @@ $ docker run -ti --rm -v ${PWD}:/work --user $(id -u):$(id -g) rggendev/rggen-do
 
 In this case, RgGen will take `config.yml` and `block_0.yml` files from the current direcotry and output generated files to the `out` directory.
 
-### Uisng `rggen-docker` script
+### Using `rggen-docker` script
 
 The `rggen-docker` script simplifies the execution process. You can use this like below:
 
