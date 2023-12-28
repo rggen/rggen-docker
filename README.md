@@ -33,7 +33,7 @@ The default Docker image tag (version) and work direcotry are `latest` and the c
 You can change them by using `--tag` and `--work` option siwtches:
 
 ```
-$ .rggen-docker --work ../rggen-sample --tag 0.30.1 -o out -c config.yml block_0.yml
+$ .rggen-docker --work ../rggen-sample --tag 0.32 -o out -c config.yml block_0.yml
 ```
 
 ## Copyright & License
