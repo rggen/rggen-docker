@@ -16,5 +16,5 @@ while [ $# -gt 0 ]; do
   fi
 done
 
-docker pull rggendev/rggen-docker:$tag > /dev/null
+DOCKER_CLI_HINTS=false docker pull rggendev/rggen-docker:$tag > /dev/null
 docker run -ti -v $(cd $work; pwd):/work --user $(id -u):$(id -g) --rm rggendev/rggen-docker:$tag "${args[@]}"
