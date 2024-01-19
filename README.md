@@ -38,7 +38,7 @@ $ .rggen-docker --work ../rggen-sample --tag 0.32 -o out -c config.yml block_0.y
 
 ## Copyright & License
 
-Copyright &copy; 2023 Taichi Ishitani. RgGen Docker is licensed under the [MIT License](https://opensource.org/licenses/MIT), see [LICENSE](LICENSE) for futher details.
+Copyright &copy; 2023-2024 Taichi Ishitani. RgGen Docker is licensed under the [MIT License](https://opensource.org/licenses/MIT), see [LICENSE](LICENSE) for futher details.
 
 ## Code of Conduct
 
