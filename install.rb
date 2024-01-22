@@ -2,5 +2,5 @@
 
 require 'yaml'
 YAML.load_file(File.join(__dir__, 'version.yaml')).each do |lib, version|
-  system("gem install -NE --version #{version} #{lib}", exception: true)
+  system("gem install -NE --minimal-deps --version #{version} #{lib}", exception: true)
 end
