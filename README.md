@@ -5,6 +5,7 @@ This is a Docker image to allow you to use RgGen easily. This image contains:
 * [Ruby execution environment](https://hub.docker.com/_/ruby)
 * [RgGen](https://github.com/rggen/rggen)
 * [RgGen::Verilog](https://github.com/rggen/rggen-verilog)
+* [RgGen::Veryl](https://github.com/rggen/rggen-veryl)
 * [RgGen::VHDL](https://github.com/rggen/rggen-vhdl)
 
 ## Usage

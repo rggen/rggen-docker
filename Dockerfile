@@ -11,7 +11,7 @@ FROM ruby:3.3-alpine
 
 COPY --from=builder /usr/local/bundle /usr/local/bundle
 
-ENV RGGEN_PLUGINS rggen-verilog:rggen-vhdl
+ENV RGGEN_PLUGINS rggen-verilog:rggen-veryl:rggen-vhdl
 
 WORKDIR /work
 ENTRYPOINT [ "rggen" ]
