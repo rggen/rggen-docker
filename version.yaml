@@ -1,4 +1,4 @@
-rggen: 0.33.4
-rggen-verilog: 0.11.1
-rggen-veryl: 0.1.0
-rggen-vhdl: 0.10.1
+rggen: 0.34.0
+rggen-verilog: 0.12.0
+rggen-veryl: 0.2.0
+rggen-vhdl: 0.11.0
